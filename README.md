@@ -12,4 +12,7 @@ Rather than simply compile and run this console app, please clone or download th
 3. Export posts from your Google Blogger site, rename it from "blog-yyyy-mm-dd.xml" to "blog.xml" and copy it to the project output directory, e.g. `bin\Debug\net452`.
 4. Run the application and see if there are html files generated under sub-directory "post."
 
-*Note:* My blog posts are using images from Google Drive, so I don't need to download images files, and I simply commented those code. 
+*Note:* 
+
+- If you didn't rename your xml file to "blog.xml" (step 3), you'll need to add command line arguments when you run this application.
+- My blog posts are using images from Google Drive, so I don't need to download images files, and I simply commented those code. 
