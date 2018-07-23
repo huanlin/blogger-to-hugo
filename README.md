@@ -3,6 +3,8 @@ A simple console app for converting Blogger exported xml file to Hugo html files
 
 This program is based on Alan Tsai's [mhat-consoleapp-blogger_to_wyam](https://github.com/alantsai/mhat-consoleapp-blogger_to_wyam), which is for Wyam. Many thanks to Alan Tsai!
 
+For Windows only, .NET Framework 4.5 is required.
+
 ## Usage
 
 Rather than simply compile and run this console app, please clone or download the source code and follow instructions below:
@@ -16,5 +18,5 @@ Rather than simply compile and run this console app, please clone or download th
 *Note:*
 
 - If you didn't rename your xml file to "blog.xml" (step 3), you'll need to add command line arguments when you run this application.
-- My blog posts are using images from Google Drive, so I don't need to download images files, and I simply commented those code.
+- My blog posts are using images from Google Drive, so I don't need to download images files, and I simply commented those code .
 - I don't care much about SEO, so I'm not sure whether those "data:blog.canonicalUrl" strings work or not.
