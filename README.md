@@ -26,6 +26,6 @@ Rather than simply compile and run this console app, please clone or download th
 After html files generated, you might want to do some more modification using a find and replace tool. For example:
 
 - Find "/s640/" and replace them with "/s1600/" so that original images are displayed instead of small sized version.
-- Find "<a name="more"></a>" and replace them with "<!--more-->" so that "read more" can be displayed in your posts.
+- Find "`<a name="more"></a>`" and replace them with "`<!--more-->`" so that "read more" can be displayed in your posts.
 
 That's it. If anything missed here, feel free to create an issue.
