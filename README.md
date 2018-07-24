@@ -27,5 +27,8 @@ After html files generated, you might want to do some more modification using a 
 
 - Find "/s640/" and replace them with "/s1600/" so that original images are displayed instead of small sized version.
 - Find "`<a name="more"></a>`" and replace them with "`<!--more-->`" so that "read more" can be displayed in your posts.
+- Add `aliases` property in the front matter in each html file, so that request to old URLs can be redirected to new URLs. Uou can find more description about [aliases on Hugo web site](https://gohugo.io/content-management/urls/#aliases). Here is an example that worked for me.
+
+    `aliases: ["/2013/01/aspnet-web-api-exception-handling.html"]`
 
 That's it. If anything missed here, feel free to create an issue.
