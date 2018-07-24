@@ -25,7 +25,7 @@ Rather than simply compile and run this console app, please clone or download th
 
 After html files are generated, you might want to do some more modification using a find and replace tool. For example:
 
-- Find "/s640/" and replace them with "/s1600/" so that original images are displayed instead of small sized version.
+- Find "/s640/" and replace them with "/s1600/" so that original images are displayed instead of small sized version. Do the same with "/s400/".
 - Find "`<a name="more"></a>`" and replace them with "`<!--more-->`" so that "read more" can be displayed in your posts.
 
 ## Using Aliases to Redirect Old URLs
