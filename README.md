@@ -21,13 +21,16 @@ Rather than simply compile and run this console app, please clone or download th
 - My blog posts are using images from Google Drive, so I don't need to download images files, and I simply commented those code .
 - I don't care much about SEO, so I'm not sure whether those "data:blog.canonicalUrl" strings work or not.
 
-## Custom Modification
+## Find and Replace More Text
 
 After html files are generated, you might want to do some more modification using a find and replace tool. For example:
 
 - Find "/s640/" and replace them with "/s1600/" so that original images are displayed instead of small sized version.
 - Find "`<a name="more"></a>`" and replace them with "`<!--more-->`" so that "read more" can be displayed in your posts.
-- Add `aliases` property in the front matter in each html file, so that request to old URLs can be redirected to new URLs. Uou can find more description about [aliases on Hugo web site](https://gohugo.io/content-management/urls/#aliases). Here is an example that worked for me.
+
+## Using Aliases to Redirect Old URLs
+
+You might want to add `aliases` property in the front matter in each html file, so that requests to old URLs can be redirected to new URLs. You can find more description about [aliases on Hugo web site](https://gohugo.io/content-management/urls/#aliases). Here is an example that worked for me.
 
     `aliases: ["/2013/01/aspnet-web-api-exception-handling.html"]`
 
