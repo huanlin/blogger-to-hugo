@@ -20,3 +20,12 @@ Rather than simply compile and run this console app, please clone or download th
 - If you didn't rename your xml file to "blog.xml" (step 3), you'll need to add command line arguments when you run this application.
 - My blog posts are using images from Google Drive, so I don't need to download images files, and I simply commented those code .
 - I don't care much about SEO, so I'm not sure whether those "data:blog.canonicalUrl" strings work or not.
+
+## Custom Modification
+
+After html files generated, you might want to do some more modification using a find and replace tool. For example:
+
+- Find "/s640/" and replace them with "/s1600/" so that original images are displayed instead of small sized version.
+- Find "<a name="more"></a>" and replace them with "<!--more-->" so that "read more" can be displayed in your posts.
+
+That's it. If anything missed here, feel free to create an issue.
